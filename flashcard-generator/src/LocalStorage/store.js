@@ -1,9 +1,12 @@
-import React from 'react'
+import { configureStore } from "@reduxjs/toolkit";
+import flashcardReducer from './ParentState'
 
-function store() {
-  return (
-    <div>store</div>
-  )
-}
+//created the global state
+const store = configureStore({
+  reducer: {
+    flashcard: flashcardReducer,
+  },
+});
 
-export default store
+
+export default store;
