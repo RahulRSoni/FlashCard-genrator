@@ -3,8 +3,8 @@ import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { IoDownloadOutline, IoPrintOutline } from "react-icons/io5";
 import { BiArrowBack } from "react-icons/bi";
-import demoImgCard from "../Images/demoCardImg.jpg";
-import ShareCom from "../Components/ShareCom";
+import demoCard from "../Images/demoCard.jpg";
+import ShareCom from "../Component/ShareCom";
 import ReactToPrint from "react-to-print";
 // import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 
@@ -106,7 +106,7 @@ const AllCreatedCards = ({ theme }) => {
               />
             ) : (
               <img
-                src={demoImgCard}
+                src={demoCard}
                 alt="cardimage"
                 className="object-contain w-[32rem] xl:w-[20vw] h-full p-6"
               />

@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Toggle from '../Components/Toggle';
+import Toggle from '../Component/Toggle';
 
 
 const Home = ({mode,toggleMode}) => {

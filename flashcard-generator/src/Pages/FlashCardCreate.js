@@ -1,12 +1,12 @@
 import React, { useState, useRef } from "react";
 import { Formik, Form, Field, ErrorMessage, FieldArray } from "formik";
-import Schema from "../Components/InputSchema/Schema";
+import Schema from "../Component/InputSchema/Schema";
 import { nanoid } from "nanoid";
 import { PlusOutlined, UploadOutlined } from "@ant-design/icons";
 import { PencilAltIcon, TrashIcon } from "@heroicons/react/outline";
 import { FaTrash } from "react-icons/fa";
 import { useDispatch } from "react-redux";
-import { setFlashCard } from "../DataFromLocalStorage/ParentState";
+import { setFlashCard } from "../LocalStorage/perent_State";
 import { toast } from 'react-toastify'
 import "../App.css";
 

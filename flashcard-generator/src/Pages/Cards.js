@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import DefaultMyFlashcard from "../Components/DefaultMyFlashcard";
-import DemoPic from '../Images/mycardsPageDemo.svg'
+import DefaultMyFlashcard from "../Component/DefaultMyFlashcard";
+import DemoPic from '../Images/mycardsPageDemo.png'
 
 const Cards = ({ theme }) => {
   const navigate = useNavigate();
