@@ -39,7 +39,7 @@ const DefaultMyFlashcard = ({ flashcard }) => {
       </p>
       <button
         onClick={() => {
-          navigate(`/showallcreatedcards/${flashcard.groupid}`);
+          navigate(`/AllCreatedCards/${flashcard.groupid}`);
         }}
         className="py-1 px-16 text-red-600 font-bold rounded-sm border-red-600 ring-2 ring-red-600"
       >
